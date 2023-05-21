@@ -247,7 +247,11 @@ dotnet_diagnostic.sa1101.severity = none      # A call to an instance member of 
 
 # Ordering Rules (SA1200-) https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/OrderingRules.md
 
-dotnet_diagnostic.sa1200.severity = warning   # A C# using directive is placed outside of a namespace element.
+dotnet_diagnostic.sa1200.severity = none      # A C# using directive is placed outside of a namespace element.
+
+# Naming Rules (SA1300-) https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/NamingRules.md
+
+dotnet_diagnostic.sa1309.severity = none      # A field name in C# begins with an underscore.
 
 # Maintainability Rules (SA1400-) https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/MaintainabilityRules.md
 
