@@ -11,7 +11,7 @@ public class PropertyManagerConsumer
     _propertyManager = propertyManager;
   }
 
-  public void ChangeName(string firstName, string lastName)
+  public void ChangeNames(string firstName, string lastName)
   {
     _propertyManager.FirstName = firstName;
     _propertyManager.LastName = lastName;
@@ -19,5 +19,5 @@ public class PropertyManagerConsumer
 
   public string GetName() => $"{_propertyManager.FirstName} {_propertyManager.LastName}";
 
-  public void MutateFirstName(string firstName) => _propertyManager.MutateFirstName(firstName);
+  public void ChangeFirstName(string firstName) => _propertyManager.ChangeFirstName(firstName);
 }

@@ -6,5 +6,5 @@ public interface IPropertyManager
 
   string LastName { get; set; }
 
-  void MutateFirstName(string firstName);
+  void ChangeFirstName(string firstName);
 }
