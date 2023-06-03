@@ -9,12 +9,12 @@ public abstract class MyAbstractClass
 
   public abstract void MyAbstractMethod();
 
-  internal string CallingFunction(Baz baz)
+  internal string CallingMethod(Baz baz)
   {
-    return ProtectedFunction(baz.Name);
+    return ProtectedMethod(baz.Name);
   }
 
-  protected virtual string ProtectedFunction(string? value)
+  protected virtual string ProtectedMethod(string? value)
   {
     if (string.IsNullOrWhiteSpace(value))
     {
